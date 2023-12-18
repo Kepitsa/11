@@ -35,7 +35,7 @@ updated_user_data = {
     'firstName': 'Bob',
     'lastName': 'Bobino',
     'email': 'Bob@rambler.com',
-    'phone': '88005553535'
+    'phone': '88002509639'
 }
 response = requests.put(f'{BASE_URL_PETSTORE}/user/1', json=updated_user_data)
 pprint.pprint(response.status_code)
